@@ -17,7 +17,7 @@ function Navbar() {
         <div><a href="#">Resources</a>&nbsp;&gt;</div>
       </div>
       <div className="login">
-        <p>Blog</p>
+        <p>CART</p>
         <button className="login-btn">Log In</button>
       </div>
     </nav>
