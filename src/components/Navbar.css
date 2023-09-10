@@ -1,0 +1,69 @@
+.navbar {
+    height: 6rem;
+    background-color: #fff;
+  
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    box-sizing: border-box;
+  }
+  
+  .navbar-content a {
+    text-decoration: none;
+  }
+  
+  .logo {
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .navbar-content {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #555c69;
+  }
+  
+  .navbar-logo-wrapper {
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    color: #111;
+  }
+  
+  .login {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .login-btn {
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 0.3rem;
+    color: azure;
+    font-weight: 700;
+    background-color: orangered;
+    border-style: none;
+  }
+  
+  .login-btn:hover {
+    background-color: red;
+    cursor: pointer;
+  }

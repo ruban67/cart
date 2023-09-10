@@ -1,0 +1,44 @@
+.jumbotron {
+    height: 16rem;
+    background: rgb(234, 155, 90);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(234, 155, 90, 1) 0%,
+      rgba(255, 162, 0, 1) 62%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(234, 155, 90, 1) 0%,
+      rgba(255, 162, 0, 1) 62%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(234, 155, 90, 1) 0%,
+      rgba(255, 162, 0, 1) 62%
+    );
+    padding-top: 3rem;
+    padding-left: 5rem;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .jumbotron-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .jumbotron-subtext {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #f0d5bb;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    transform: translate(83.70rem, 1.3rem);
+    border-bottom: 100px solid white;
+    border-left: 100px solid transparent;
+  }

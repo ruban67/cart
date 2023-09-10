@@ -1,38 +1,179 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+  font-size: 20px;
+}
+body{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header{
+  height: 80px;
+  width: 100%;
+  background-color:  teal;
+  border-radius: 3px;
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+}
+.header .logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.cart{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 3px;
+  width: 80px;
+}
+.fa-solid{
+  height: 25px;
+  width: 25px;
+  color: rgb(25, 131, 4);
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}.cart p{
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: rgb(224, 13, 13);
+  color: white;
+}
+.container{
+  display: flex;
+  width: 60%;
+  height: 80%;
+  margin-bottom: 30px;
+}
+#root{
+
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+.sidebar{
+  width: 30%;
+  height: 70%;
+  border-radius: 5px;
+  background-color: #d1ebda;
+  margin-left: 10px;
+  padding: 15px;
   text-align: center;
+  justify-content: flex-start;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head{
+  background-color:  teal;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.foot{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px; 
+  padding: 10px 0px;
+  border-top: 1px solid #333;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  border: 3px solid teal;
+  border-radius: 5px;
+  padding: 20px;
+}
+.img-box{
+  width: 120%;
+  height: 150%;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.images{
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+.bottom{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+h2{
+  font-size: 20px;
+  color: rgb(240, 16, 16);
+}
+button{
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(64, 187, 15);
+  padding: 7px 25px;
+  cursor: pointer;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover{
+  background-color:#333;
 }
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(255, 252, 252);
+  border-bottom: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 5px 5px;
+}
+.row-img{
+  width: 120px;
+  height:120px;
+  border-radius: 100px;
+  border: 1px solid rgb(180, 12, 12);
+  position: relative;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.rowimg{
+  max-width: 100px;
+  max-height:100px;
+  border-radius: 50%;
+  
+}
+.fa-trash:hover{
+  size: 50px;
+  cursor: pointer;
+  color: #333;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
